@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 //import 'package:meta/meta.dart';       não funcionou
 
 class Lamp {  //classe lâmpada
@@ -12,3 +12,4 @@ class Lamp {  //classe lâmpada
     @required this.itensidade,   //não pode ser nulo
   });
 }
+*/

@@ -1,9 +1,7 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:iot_trainee/data/dummy_lamps.dart';
 
 class  LampList extends StatelessWidget {
-  const ({ Key? key }) : super(key: key); //precisa disso?
-
   @override
   Widget build(BuildContext context) {
     const lamps = {...DUMMY_LAMPS};
@@ -22,3 +20,4 @@ class  LampList extends StatelessWidget {
     );
   }
 }
+*/

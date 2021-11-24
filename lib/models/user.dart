@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 //import 'package:meta/meta.dart';       não funcionou
 
 class User {  //classe usuário
@@ -12,3 +12,4 @@ class User {  //classe usuário
     @required this.senha,   //não pode ser nulo
   });
 }
+*/

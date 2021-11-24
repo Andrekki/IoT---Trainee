@@ -1,4 +1,4 @@
-import 'package:iot_trainee/models/lamp.dart'; //import classe usuário
+/*import 'package:iot_trainee/models/lamp.dart'; //import classe usuário
 
 const DUMMY_LAMPS = { //map
 
@@ -27,3 +27,4 @@ const DUMMY_LAMPS = { //map
   ),
 
 };
+*/
