@@ -1,5 +1,6 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
-import 'package:iot_trainee/core/app_image.dart';
 import 'package:iot_trainee/pages/home.dart';
 
 class Login extends StatefulWidget {
@@ -20,11 +21,18 @@ class LoginState extends State<Login> {
         width: double.infinity,
         height: double.infinity,
         child: Padding(
-          padding: const EdgeInsets.all(8),
+          padding: const EdgeInsets.all(20),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Container(child: Image.asset(AppImages.logo)),
+              Container(
+                width: 100,
+                height: 100,
+                child: Image(
+                  image: AssetImage('assets/images/atlas_logo.png'),
+                ),
+              ),
+              SizedBox(height: 60),
               TextField(
                 onChanged: (text) {
                   email = text;
@@ -40,21 +48,33 @@ class LoginState extends State<Login> {
                 },
                 obscureText: true,
                 decoration: InputDecoration(
-                    labelText: 'Senha:', border: OutlineInputBorder()),
+                    labelText: 'Senha:',
+                    border: OutlineInputBorder()),
               ),
               SizedBox(height: 40),
               RaisedButton(
+                padding: EdgeInsets.all(15),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
                 onPressed: () {
                   Navigator.of(context).pushReplacement(
                       MaterialPageRoute(builder: (context) => Home()));
                 },
-                //colocar icone -> Icon(Icons.arrow_forward_rounded);
-                //formatar botão
                 color: Colors.black38,
-                child: Text('Login'
-                    //style:
-                    ),
-              ),
+                child: 
+                  Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children:[
+                        Icon(
+                          Icons.arrow_forward_rounded,
+                          color: Colors.yellow,
+                          size: min(30, 30)
+                        ),
+                      SizedBox(width: 8),
+                      Text(
+                        'Login  ',
+                        style: TextStyle(fontSize: 15)
+                      ),
+                  ],),),
             ],
           ),
         ),

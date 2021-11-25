@@ -1,4 +1,4 @@
-/*import 'package:iot_trainee/models/user.dart'; //import classe usuário
+import 'package:iot_trainee/models/user.dart'; //import classe usuário
 
 const DUMMY_USERS = { //map
 
@@ -15,4 +15,4 @@ const DUMMY_USERS = { //map
   ),
 
 };
-*/
+

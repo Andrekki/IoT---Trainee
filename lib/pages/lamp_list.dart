@@ -1,4 +1,4 @@
-/*import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:iot_trainee/data/dummy_lamps.dart';
 
 class  LampList extends StatelessWidget {
@@ -20,4 +20,3 @@ class  LampList extends StatelessWidget {
     );
   }
 }
-*/
